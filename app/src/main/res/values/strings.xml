@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="category_tourism">Tourism</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_eatery">Eatery</string>
+    <string name="category_culture">Culture</string>
+    <string name="category_events">Events</string>
+    
+    <string name="tourism_one">Sarovaram Bio Park</string>
+    <string name="tour_add_one"> Mini Bypass Rd, Kottooli, Kozhikode, Kerala 673017</string>
+    <string name="tourism_two">Pazhassi Raja Museum</string>
+    <string name="tourism_add_two">East Hill, Kozhikode, Kerala 673005</string>
+    <string name="tourism_three">Moidhu Moulavi Museum</string>
+    <string name="tourism_add_three">Vellayil, Kozhikode, Kerala 673032</string>
+    <string name="tourism_four">Kirtads Museum</string>
+    <string name="tourism_add_four">Golf Link Rd, Vrindavan Colony, Kozhikode, Kerala 673017</string>
+
+    <string name="sh_one">The Focus Mall</string>
+    <string name="sh_a_one">Bus Stop, The Focus Mall Rajaji Road Opposite KSRTC, Kozhikode, Kerala 673004</string>
+    <string name="sh_two">HiLITE Mall</string>
+    <string name="sh_a_two"> 1003, T1, Business Park, Hilite City, NH Thondayad By-Pass, Kerala 673014</string>
+    <string name="sh_three">Emarald Mall</string>
+    <string name="sh_a_three">Mavoor Rd, Arayidathupalam, Kozhikode, Kerala 673004</string>
+    <string name="sh_four">The Raymond Shop</string>
+    <string name="sh_a_four">11/40 C, Fashion Tower, Cherooty Road, Kozhikode, Kerala 673001</string>
+
+    <string name="even_one">Tathva 2018</string>
+    <string name="even_a_one">NIT Calicut</string>
+    <string name="even_two">Tarang 2018</string>
+    <string name="even_a_two">SOMS NIT Calicut</string>
+    <string name="even_three">Ragam 2019</string>
+    <string name="even_a_three">NIT Calicut</string>
+    <string name="even_four">Hi Life Kozhikode</string>
+    <string name="even_a_four">The Gateway Hotel, Calicut., P. T. Usha Road, Kozhikode, Kerala</string>
+
+    <string name="e_one">Kingsbay</string>
+    <string name="e_a_one">1414 Dindai House, Customs Rd, Vellayil, Kozhikode, Kerala 673032</string>
+    <string name="e_two">Garlic Routes</string>
+    <string name="e_a_two">Ground MN\'s Avenue, Garlic Road, Kozhikode, Kerala 673001</string>
+    <string name="e_three">M Grill</string>
+    <string name="e_a_three">3rd Floor, Focus Mall, Rajaji Road, Kozhikode, Kerala 673004</string>
+    <string name="e_four">Hotel Sagar</string>
+    <string name="e_a_four"> Mavoor Road Near KSRTC Bus Stand, Mavoor Road Junction, Kozhikode, Kerala 673001</string>
+</resources>
