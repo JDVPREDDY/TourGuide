@@ -26,14 +26,14 @@ public class ShoppingFragment extends Fragment {
             View rootView = inflater.inflate(R.layout.item_list, container, false);
 
             final ArrayList<item> items = new ArrayList<item>();
-            items.add(new item(R.string.sh_one, R.string.sh_a_one, R.mipmap.hilite));
-            items.add(new item(R.string.sh_two, R.string.sh_a_two, R.mipmap.focus));
-            items.add(new item(R.string.sh_three, R.string.sh_a_three, R.mipmap.emarald));
-            items.add(new item(R.string.sh_four, R.string.sh_a_four, R.mipmap.raymond));
+            items.add(new item(R.string.sh_one, R.string.sh_a_one, R.drawable.hilite));
+            items.add(new item(R.string.sh_two, R.string.sh_a_two, R.drawable.focus));
+            items.add(new item(R.string.sh_three, R.string.sh_a_three, R.drawable.emarald));
+            items.add(new item(R.string.sh_four, R.string.sh_a_four, R.drawable.raymond));
 
 
             ItemAdapter adapter = new ItemAdapter(getActivity(), items, R.color.category_shopping);
-            ListView listView = (ListView) rootView.findViewById(R.id.list);
+            ListView listView = rootView.findViewById(R.id.list);
             listView.setAdapter(adapter);
             return rootView;
         }

@@ -27,14 +27,14 @@ public class TourismFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
         final ArrayList<item> items = new ArrayList<item>();
-        items.add(new item(R.string.tourism_one, R.string.tour_add_one, R.mipmap.sarovaram));
-        items.add(new item(R.string.tourism_two, R.string.tourism_add_two, R.mipmap.parazhi));
-        items.add(new item(R.string.tourism_three, R.string.tourism_add_three, R.mipmap.moidu));
-        items.add(new item(R.string.tourism_four, R.string.tourism_add_four, R.mipmap.kirtads));
+        items.add(new item(R.string.tourism_one, R.string.tour_add_one, R.drawable.sarovaram));
+        items.add(new item(R.string.tourism_two, R.string.tourism_add_two, R.drawable.parazhi));
+        items.add(new item(R.string.tourism_three, R.string.tourism_add_three, R.drawable.moidu));
+        items.add(new item(R.string.tourism_four, R.string.tourism_add_four, R.drawable.kirtads));
 
 
         ItemAdapter adapter = new ItemAdapter(getActivity(), items, R.color.category_tourism);
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
         return rootView;
     }

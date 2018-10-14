@@ -27,14 +27,14 @@ public class EventsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
         final ArrayList<item> items = new ArrayList<item>();
-        items.add(new item(R.string.even_one, R.string.even_a_one, R.mipmap.tathva));
-        items.add(new item(R.string.even_two, R.string.even_a_two, R.mipmap.tarang));
-        items.add(new item(R.string.even_three, R.string.even_a_three, R.mipmap.ragam));
-        items.add(new item(R.string.even_four, R.string.even_a_four, R.mipmap.hilife));
+        items.add(new item(R.string.even_one, R.string.even_a_one, R.drawable.tathva));
+        items.add(new item(R.string.even_two, R.string.even_a_two, R.drawable.tarang));
+        items.add(new item(R.string.even_three, R.string.even_a_three, R.drawable.ragam));
+        items.add(new item(R.string.even_four, R.string.even_a_four, R.drawable.hilife));
 
 
         ItemAdapter adapter = new ItemAdapter(getActivity(), items, R.color.category_events);
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
         return rootView;
     }
